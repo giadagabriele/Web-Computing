@@ -9,3 +9,6 @@ Utente di prova
 Amministratore
    Email: admin
    Password: admin
+
+N.B. per cambiare l'immagine del profilo bisogna scegliere tra quelle presenti nella cartella "profilo" (webapp\html\profilo)
+     per le locandine dei contenuti bisogna scegliere tra quelle presenti nella cartella "images" (webapp\html\images)
