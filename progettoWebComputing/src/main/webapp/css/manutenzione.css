@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Numans');
+h6{
+	color: white; 
+	margin-bottom:50px;
+}
+#footer{
+	color: white;
+	margin-top: 300px;
+}
+h5{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: white;
+}
+h2{
+	margin-top: 170px;
+	margin-left: 20px;
+	color: white;
+}
+body{
+	overflow-x: hidden;  
+	background-color: black;
+	font-family: 'Numans', sans-serif;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registrati</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/registrazione.css" type="text/css" />
+</head>
+<body>
+<div class="container">
+	<h2 class="text-center">Registrati</h2>
+	<p class="text-center">Dopo aver effettuato la registrazione, potrai creare la tua Lista dei Preferiti e lasciare le tue recensioni nella sezione commenti</p>
+
+	<form class="was-validated" method=POST action="faiIscrizione">
+		<div class="form-group">
+			<label for="uname">Nome</label>
+
+			<input type="text" class="form-control" id="nome" placeholder="Inserisci nome" name="nome" required>
+			<div class="valid-feedback">OK!</div>
+			<div class="invalid-feedback">Compila il campo.</div>
+		</div>
+		<div class="form-group">
+			<label for="uname">Cognome</label>
+			<input type="text" class="form-control" id="cognome" placeholder="Inserisci cognome" name="cognome" required>
+			<div class="valid-feedback">OK!</div>
+			<div class="invalid-feedback">Compila il campo.</div>
+		</div>
+		<div class="form-group">
+			<label for="uname">Età</label>
+			<input type="number" class="form-control" id="eta" placeholder="Inserisci età" name="eta" required>
+			<div class="valid-feedback">OK!</div>
+			<div class="invalid-feedback">Compila il campo.</div>
+		</div>
+		<div class="form-group">
+				<label for="nome">Email</label> 
+				<input type="text" class="form-control" id="email" placeholder="Inserisci email" name="email" required>
+				<div class="valid-feedback">OK!</div>
+				<div class="invalid-feedback">Compila il campo.</div>
+		</div>
+		<div class="form-group">
+			<label for="pwd">Password</label>
+			<input type="password" class="form-control" id="password" placeholder="Inserisci password" name="password" required>
+			<div class="valid-feedback">OK!</div>
+			<div class="invalid-feedback">Compila il campo.</div>
+		</div>
+		<div class="form-group form-check">
+			<label class="form-check-label"></label>
+			<input class="form-check-input" type="checkbox" name="remember" required> Accetta le condizioni d'uso.
+			<p id="condizioni">Questo sito web è di proprietà e gestito da FoxArchive.
+			I presenti Termini stabiliscono i termini e le condizioni in base ai quali è possibile utilizzare il nostro sito Web e i servizi da noi offerti.
+			Accedendo o utilizzando il sito Web per il nostro servizio, l'utente accetta di aver letto, compreso e accettato di essere vincolato da questi Termini.</p>
+			<p id="condizioni">Non è consentito utilizzare questo sito Web e/o ricevere i servizi forniti se ciò è vietato nel proprio Paese o in base a qualsiasi legge o regolamento applicabile a te e al tuo caso.</p>
+			<p id="condizioni">Potremmo interrompere o sospendere in modo permanente o temporaneo l'accesso al servizio senza preavviso e responsabilità per qualsiasi motivo,
+			incluso se, a nostra esclusiva decisione, violi qualsiasi disposizione dei presenti Termini o qualsiasi legge o regolamento applicabile.
+			È possibile che venga richiesto di interrompere l'utilizzo del servizio/sito e che venga richiesta inoltre la cancellazione del proprio account e/o dei servizi in qualsiasi momento.
+			</p>
+			<p id="condizioni">Accetti di ricevere di volta in volta messaggi e materiali promozionali da noi per e-mail. Se non desideri ricevere tali materiali promozionali o avvisi, ti preghiamo di segnalarcelo in qualsiasi momento.
+			</p> 
+			<div class="valid-feedback">OK!</div>
+		</div>
+		<button type="submit" class="btn btn-success">Registrati</button>
+	</form>
+</div>
+<div id="jumbotron" class="jumbotron text-center">
+		 <footer>
+			<h6>© Dev Team FoxArchive</h6> 
+		</footer>
+	</div>
+</body>
+</html> 

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.bg-custom-2 {
+	background-image: linear-gradient(15deg, black 0%, purple 100%);
+}
+#link{
+	color: purple;
+}
+#login{
+	margin-bottom: 20px;
+}
+#serie{
+	color: black;
+}
+h6{
+	color: white; 
+	margin-top: 20px;
+	margin-bottom:50px;
+}
+#footer{
+	color: white;
+	margin-top: 100px;
+}
+h5{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: white;
+}
+h2{
+	margin-top: 100px;
+	margin-left: 20px;
+	color: white;
+}
+body{
+	overflow-x: hidden;  
+	background-color: black;
+	font-family: 'Numans', sans-serif;
+}

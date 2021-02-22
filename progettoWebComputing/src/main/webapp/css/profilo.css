@@ -1,0 +1,43 @@
+body {
+    background-size: cover;
+	background-repeat: no-repeat; 
+	height: 100%;
+	font-family: 'Numans', sans-serif;
+	overflow-x: hidden;
+	background-color: black;
+	margin-bottom:0;
+}
+h6{
+	color:white;
+	margin-top: 50px;
+}
+#link{
+	color: purple;
+}
+#occhio{
+	margin-left: 10px;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: darkgreen;
+}
+.profile-button {
+    background: green;
+    box-shadow: none;
+    border: none
+}
+.profile-button:hover {
+    background: darkgreen;
+}
+.profile-button:focus {
+    background: darkgreen;
+    box-shadow: none
+}
+.profile-button:active {
+    background: darkgreen;
+    box-shadow: none
+}
+.back:hover {
+    color: darkgreen;
+    cursor: pointer
+}

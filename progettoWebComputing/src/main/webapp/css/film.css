@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+#line, #regista{
+	display: inline-block;
+}
+.bg-custom-2 {
+	background-image: linear-gradient(15deg, black 0%, purple 100%);
+}
+#link{
+	color: purple;
+}
+h6, h5{
+	color: white; 
+	margin-left: 10px;
+}
+#testo_accedi{
+	color: black;
+}
+#login{
+	margin-bottom:20px;
+}
+#footer{
+	color: white;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+h2{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: white;
+}
+#descrizione{
+	margin-top: 20px;
+	color: white;
+}
+#trama{
+	margin-bottom: 80px;
+}
+#rec{
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+#box{
+	width: 1000px;
+	margin-left: 20px;
+}
+#testo_rec{
+	color: #ff3333;
+}
+#nomeRec{
+	color: #ffa366;
+}
+.checked{
+	color: orange;
+}
+.card {
+    width: 500px;
+    border: none;
+    border-radius: 8px
+}
+h4, p{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+#immagine{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+#iframe{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+body{
+	overflow-x: hidden;  
+	background-color: black;
+	font-family: 'Numans', sans-serif;
+}

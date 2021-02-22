@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#jumbotron{
+	background-color: #82002e;
+	margin-bottom: 0;		
+}
+h1{
+	color:white;
+	font-family:Brush Script MT, cursive;
+	font-size: 50px;
+}
+h6{
+	color:white;
+}
+#griglia{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+body{
+	overflow-x: hidden;  
+	background-color: black;
+}

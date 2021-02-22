@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body{
+	background-color: black;
+}
+.container {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	color: white;
+}
+#condizioni {
+	font-size: 12px;
+	color: white
+}
+#jumbotron{
+	background-color: #82002e;
+	margin-bottom: 0;		
+}
+h6{
+	color: white;
+}
