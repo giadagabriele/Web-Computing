@@ -1,14 +1,11 @@
-# ProgettoWebComputing (University Exam)
-Link al sito web
-   http://localhost:8090
+# Web Computing
+University Project
 
-CREDENZIALI UTILI
-Utente di prova
-   Email: test
-   Password: test
-Amministratore
-   Email: admin
-   Password: admin
+Link: http://localhost:8090
 
-N.B. per cambiare l'immagine del profilo bisogna scegliere tra quelle presenti nella cartella "profilo" (webapp\html\profilo)
-     per le locandine dei contenuti bisogna scegliere tra quelle presenti nella cartella "images" (webapp\html\images)
+USEFUL CREDENTIALS
+Test user /   Email: test     Password: test
+Admin /   Email: admin   Password: admin
+
+Note: to change the profile picture you have to choose among those present in the folder "profilo" (webapp\html\profilo)
+     for the posters of the contents you have to choose among those present in the folder "images" (webapp\html\images)
