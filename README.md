@@ -1,5 +1,4 @@
-# Web Computing
-University Project
+# Web Computing (University Project)
 
 website info: documentation (written in italian)
 
