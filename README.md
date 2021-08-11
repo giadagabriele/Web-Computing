@@ -1,7 +1,7 @@
 # Web Computing
 University Project
 
-website info: documentation
+website info: documentation (written in italian)
 
 Link: http://localhost:8090
 
